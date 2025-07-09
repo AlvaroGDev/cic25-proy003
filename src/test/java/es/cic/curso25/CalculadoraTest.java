@@ -8,10 +8,10 @@ public class CalculadoraTest {
     public void testLanzar() {
         Calculadora c = new Calculadora();
         Calculadora d = c;
-        c.total = 3;
+        c.setTotal(3);
         //d apunta AL MISMO SITIO QUE C. si C.total es 3, D.total TAMBIÉN es 3
         c = new Calculadora();
-        c.total = 4.5;
+        c.setTotal(4.5);
         
     } 
     
