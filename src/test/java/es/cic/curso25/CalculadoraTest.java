@@ -67,4 +67,15 @@ public class CalculadoraTest {
 
         assertEquals(2, valorActual);
     }
+
+    @Test
+    void testLimpiar() {
+        Calculadora cut = new Calculadora();
+        cut.sumar(20);
+        cut.limpiar();
+
+        double valorActual = cut.getTotal();
+        assertEquals(cut.getTotal(), valorActual);
+
+    }
 }

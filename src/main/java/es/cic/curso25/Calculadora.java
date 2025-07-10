@@ -31,4 +31,8 @@ public class Calculadora {
          * arithmeticexception estaría bien porque es lo que hemos querido
          */
     }
+
+     public void limpiar() {
+        total=0;
+    }
 }
