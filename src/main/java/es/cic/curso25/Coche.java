@@ -6,8 +6,7 @@ public class Coche {
     private int velocidad;
 
     public int getVelocidad() {
-        // TODO: Pendiente de completar funcion getVelocidad
-        throw new UnsupportedOperationException("No implementado aun");
+        return this.velocidad;
     }
 
     public double getConsumo() {
@@ -17,6 +16,7 @@ public class Coche {
          * Es importante poner el .0 para tomarlo como un número con decimales.
          * Al hacer una division de un entero entre un decimal, daria 0
          * Porque 50/100 daria 0.5, y un entero lo redondearía en 0
+         * Otra opción posible: castear velocidad en un double. -> (double)velocidad / 100 * consumo_instantaneo
          */
     }
 
